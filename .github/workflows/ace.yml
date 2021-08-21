@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "ULTRAX"
+          find: "ANGELX"
 
-          replace: "ANGELX"
+          replace: "ULTRAX"
 
       - name: Create Pull Request
 
