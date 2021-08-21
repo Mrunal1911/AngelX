@@ -8,14 +8,14 @@ from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from ULTRA import CMD_HELP
 from ULTRA.utils import admin_cmd, sudo_cmd
 import html
-from ANGELX import POST
+from ULTRAX import POST
 from telethon import events
 from telethon.tl.functions.photos import GetUserPhotosRequest
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 from telethon.utils import get_input_location
 from telethon.events import ChatAction
-from ANGELX import devs
+from ULTRAX import devs
 async def get_full_user(event):  
     args = event.pattern_match.group(1).split(':', 1)
     extra = None

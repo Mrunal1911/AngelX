@@ -1,9 +1,9 @@
 from ULTRA.helpers import functions as simpdef
 from LEGENDX import *
-from LEGENDX.ANGELX import *
+from LEGENDX.ULTRAX import *
 from ULTRA import *
 from ULTRA.utils import *
-from ANGELX import *
+from ULTRAX import *
 
 simpmusic = simpdef.simpmusic 
 simpmusicvideo = simpdef.simpmusicvideo

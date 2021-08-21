@@ -19,12 +19,12 @@
 
 
 import os, re
-from ANGELX import id, ID, devs
+from ULTRAX import id, ID, devs
 from telethon.tl.functions.contacts import BlockRequest as block
 from telethon import Button, custom, events, functions
 
 # back button click kr madarchod
-from ANGELX import NAME
+from ULTRAX import NAME
 ULTRA_USER = NAME
 
 BOT_MSG = os.environ.get("BOT_MSG", None)
